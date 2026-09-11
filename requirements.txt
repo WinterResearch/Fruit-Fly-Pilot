@@ -1,0 +1,7 @@
+numpy>=1.23,<3
+scipy>=1.9,<2
+jsbsim==1.2.3
+Pillow>=9
+playwright==1.51.0
+imageio-ffmpeg==0.6.0
+

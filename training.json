@@ -1,0 +1,12 @@
+{
+  "samples": 1024,
+  "seed": 124,
+  "method": "ridge imitation of attitude-control teacher; fixed connectome",
+  "training_rmse": [
+    0.0235260312954544,
+    0.002019547414325051
+  ],
+  "connectome_sha256": "fbf8d440ca1207c7573e1acdd2366f9d0beb9b533c1710f21681264f81b1cc49",
+  "neurons": 139255,
+  "edges": 2698236
+}

@@ -1,0 +1,335 @@
+[
+  {
+    "mode": "teacher",
+    "landed": true,
+    "neurons": 139255,
+    "edges": 2698236,
+    "connectome_sha256": "fbf8d440ca1207c7573e1acdd2366f9d0beb9b533c1710f21681264f81b1cc49",
+    "physics": "JSBSim c172p",
+    "neural_model": "fixed signed normalized rate network; tanh activation",
+    "assistance": [
+      "geometric approach director",
+      "throttle speed hold",
+      "post-touchdown brakes"
+    ],
+    "inputs": "synthetic instrument-to-visual-population electrodes; not reconstructed retinal vision",
+    "training": "ridge imitation of attitude controller; no reinforcement learning",
+    "touchdown_time": 47.04999999999861,
+    "result": {
+      "t": 47.04999999999861,
+      "sink_rate": 0.6495923499801298,
+      "lateral_error": -4.099438191731653,
+      "north": 254.80845352729233,
+      "roll": -0.005197412932396913,
+      "cg_height": 1.3799880459571026,
+      "contact_units": [
+        1
+      ]
+    },
+    "playback_rate": 1.5,
+    "wall_seconds": 0.1121695639999416,
+    "initial": {
+      "east": 24,
+      "altitude": 76,
+      "north": -1300,
+      "heading": -0.01,
+      "wind": 0
+    }
+  },
+  {
+    "mode": "neural",
+    "landed": true,
+    "neurons": 139255,
+    "edges": 2698236,
+    "connectome_sha256": "fbf8d440ca1207c7573e1acdd2366f9d0beb9b533c1710f21681264f81b1cc49",
+    "physics": "JSBSim c172p",
+    "neural_model": "fixed signed normalized rate network; tanh activation",
+    "assistance": [
+      "geometric approach director",
+      "throttle speed hold",
+      "post-touchdown brakes"
+    ],
+    "inputs": "synthetic instrument-to-visual-population electrodes; not reconstructed retinal vision",
+    "training": "ridge imitation of attitude controller; no reinforcement learning",
+    "touchdown_time": 47.033333333331946,
+    "result": {
+      "t": 47.033333333331946,
+      "sink_rate": 0.6368451802595996,
+      "lateral_error": -4.26241487082944,
+      "north": 254.43634885277902,
+      "roll": -0.0049579825228381665,
+      "cg_height": 1.3812515921545312,
+      "contact_units": [
+        1
+      ]
+    },
+    "playback_rate": 1.5,
+    "wall_seconds": 10.933089554000162,
+    "initial": {
+      "east": 24,
+      "altitude": 76,
+      "north": -1300,
+      "heading": -0.01,
+      "wind": 0
+    }
+  },
+  {
+    "mode": "disconnected",
+    "landed": false,
+    "neurons": 139255,
+    "edges": 2698236,
+    "connectome_sha256": "fbf8d440ca1207c7573e1acdd2366f9d0beb9b533c1710f21681264f81b1cc49",
+    "physics": "JSBSim c172p",
+    "neural_model": "fixed signed normalized rate network; tanh activation",
+    "assistance": [
+      "geometric approach director",
+      "throttle speed hold",
+      "post-touchdown brakes"
+    ],
+    "inputs": "synthetic instrument-to-visual-population electrodes; not reconstructed retinal vision",
+    "training": "ridge imitation of attitude controller; no reinforcement learning",
+    "touchdown_time": 14.333333333333625,
+    "result": {
+      "t": 14.333333333333625,
+      "sink_rate": 10.98472888022649,
+      "lateral_error": -237.44525149666327,
+      "north": -999.8015752127052,
+      "roll": 0.08250729924637987,
+      "cg_height": 1.6700253571197645,
+      "contact_units": [
+        0
+      ]
+    },
+    "playback_rate": 1.5,
+    "wall_seconds": 0.6949765809999917,
+    "initial": {
+      "east": 24,
+      "altitude": 76,
+      "north": -1300,
+      "heading": -0.01,
+      "wind": 0
+    }
+  },
+  {
+    "mode": "teacher",
+    "landed": true,
+    "neurons": 139255,
+    "edges": 2698236,
+    "connectome_sha256": "fbf8d440ca1207c7573e1acdd2366f9d0beb9b533c1710f21681264f81b1cc49",
+    "physics": "JSBSim c172p",
+    "neural_model": "fixed signed normalized rate network; tanh activation",
+    "assistance": [
+      "geometric approach director",
+      "throttle speed hold",
+      "post-touchdown brakes"
+    ],
+    "inputs": "synthetic instrument-to-visual-population electrodes; not reconstructed retinal vision",
+    "training": "ridge imitation of attitude controller; no reinforcement learning",
+    "touchdown_time": 46.94999999999862,
+    "result": {
+      "t": 46.94999999999862,
+      "sink_rate": 0.6493986270272907,
+      "lateral_error": -4.107970969316124,
+      "north": 255.4271790061608,
+      "roll": -0.005209598590244073,
+      "cg_height": 1.3818110498067815,
+      "contact_units": [
+        1
+      ]
+    },
+    "playback_rate": 1.5,
+    "wall_seconds": 0.10957609699971727,
+    "initial": {
+      "east": -25,
+      "altitude": 78,
+      "north": -1300,
+      "heading": 0.015,
+      "wind": 0
+    }
+  },
+  {
+    "mode": "neural",
+    "landed": true,
+    "neurons": 139255,
+    "edges": 2698236,
+    "connectome_sha256": "fbf8d440ca1207c7573e1acdd2366f9d0beb9b533c1710f21681264f81b1cc49",
+    "physics": "JSBSim c172p",
+    "neural_model": "fixed signed normalized rate network; tanh activation",
+    "assistance": [
+      "geometric approach director",
+      "throttle speed hold",
+      "post-touchdown brakes"
+    ],
+    "inputs": "synthetic instrument-to-visual-population electrodes; not reconstructed retinal vision",
+    "training": "ridge imitation of attitude controller; no reinforcement learning",
+    "touchdown_time": 46.93333333333195,
+    "result": {
+      "t": 46.93333333333195,
+      "sink_rate": 0.636639719706331,
+      "lateral_error": -4.273470156194272,
+      "north": 255.0294493830785,
+      "roll": -0.004973641471865753,
+      "cg_height": 1.3835251620157683,
+      "contact_units": [
+        1
+      ]
+    },
+    "playback_rate": 1.5,
+    "wall_seconds": 10.831691936000425,
+    "initial": {
+      "east": -25,
+      "altitude": 78,
+      "north": -1300,
+      "heading": 0.015,
+      "wind": 0
+    }
+  },
+  {
+    "mode": "disconnected",
+    "landed": false,
+    "neurons": 139255,
+    "edges": 2698236,
+    "connectome_sha256": "fbf8d440ca1207c7573e1acdd2366f9d0beb9b533c1710f21681264f81b1cc49",
+    "physics": "JSBSim c172p",
+    "neural_model": "fixed signed normalized rate network; tanh activation",
+    "assistance": [
+      "geometric approach director",
+      "throttle speed hold",
+      "post-touchdown brakes"
+    ],
+    "inputs": "synthetic instrument-to-visual-population electrodes; not reconstructed retinal vision",
+    "training": "ridge imitation of attitude controller; no reinforcement learning",
+    "touchdown_time": 14.450000000000298,
+    "result": {
+      "t": 14.450000000000298,
+      "sink_rate": 11.809125836292578,
+      "lateral_error": -283.1547395314455,
+      "north": -995.3827837442177,
+      "roll": -0.2541572816985027,
+      "cg_height": 1.693512603652715,
+      "contact_units": [
+        0
+      ]
+    },
+    "playback_rate": 1.5,
+    "wall_seconds": 1.0203156079996916,
+    "initial": {
+      "east": -25,
+      "altitude": 78,
+      "north": -1300,
+      "heading": 0.015,
+      "wind": 0
+    }
+  },
+  {
+    "mode": "teacher",
+    "landed": true,
+    "neurons": 139255,
+    "edges": 2698236,
+    "connectome_sha256": "fbf8d440ca1207c7573e1acdd2366f9d0beb9b533c1710f21681264f81b1cc49",
+    "physics": "JSBSim c172p",
+    "neural_model": "fixed signed normalized rate network; tanh activation",
+    "assistance": [
+      "geometric approach director",
+      "throttle speed hold",
+      "post-touchdown brakes"
+    ],
+    "inputs": "synthetic instrument-to-visual-population electrodes; not reconstructed retinal vision",
+    "training": "ridge imitation of attitude controller; no reinforcement learning",
+    "touchdown_time": 46.94999999999862,
+    "result": {
+      "t": 46.94999999999862,
+      "sink_rate": 0.6492708077409517,
+      "lateral_error": -4.080894650191452,
+      "north": 255.40483404129893,
+      "roll": -0.005160840759199204,
+      "cg_height": 1.3857804292529856,
+      "contact_units": [
+        1
+      ]
+    },
+    "playback_rate": 1.5,
+    "wall_seconds": 0.10702228700029082,
+    "initial": {
+      "east": 40,
+      "altitude": 80,
+      "north": -1300,
+      "heading": -0.02,
+      "wind": 0
+    }
+  },
+  {
+    "mode": "neural",
+    "landed": true,
+    "neurons": 139255,
+    "edges": 2698236,
+    "connectome_sha256": "fbf8d440ca1207c7573e1acdd2366f9d0beb9b533c1710f21681264f81b1cc49",
+    "physics": "JSBSim c172p",
+    "neural_model": "fixed signed normalized rate network; tanh activation",
+    "assistance": [
+      "geometric approach director",
+      "throttle speed hold",
+      "post-touchdown brakes"
+    ],
+    "inputs": "synthetic instrument-to-visual-population electrodes; not reconstructed retinal vision",
+    "training": "ridge imitation of attitude controller; no reinforcement learning",
+    "touchdown_time": 46.93333333333195,
+    "result": {
+      "t": 46.93333333333195,
+      "sink_rate": 0.6365341858762489,
+      "lateral_error": -4.242469014987169,
+      "north": 255.0500811426136,
+      "roll": -0.004917374930109173,
+      "cg_height": 1.3869082412947098,
+      "contact_units": [
+        1
+      ]
+    },
+    "playback_rate": 1.5,
+    "wall_seconds": 10.83391624900014,
+    "initial": {
+      "east": 40,
+      "altitude": 80,
+      "north": -1300,
+      "heading": -0.02,
+      "wind": 0
+    }
+  },
+  {
+    "mode": "disconnected",
+    "landed": false,
+    "neurons": 139255,
+    "edges": 2698236,
+    "connectome_sha256": "fbf8d440ca1207c7573e1acdd2366f9d0beb9b533c1710f21681264f81b1cc49",
+    "physics": "JSBSim c172p",
+    "neural_model": "fixed signed normalized rate network; tanh activation",
+    "assistance": [
+      "geometric approach director",
+      "throttle speed hold",
+      "post-touchdown brakes"
+    ],
+    "inputs": "synthetic instrument-to-visual-population electrodes; not reconstructed retinal vision",
+    "training": "ridge imitation of attitude controller; no reinforcement learning",
+    "touchdown_time": 14.583333333333638,
+    "result": {
+      "t": 14.583333333333638,
+      "sink_rate": 12.457867368600112,
+      "lateral_error": -233.29498477551368,
+      "north": -1007.2934871057702,
+      "roll": -0.3938402504815837,
+      "cg_height": 1.598818915812113,
+      "contact_units": [
+        0
+      ]
+    },
+    "playback_rate": 1.5,
+    "wall_seconds": 1.0298630090001097,
+    "initial": {
+      "east": 40,
+      "altitude": 80,
+      "north": -1300,
+      "heading": -0.02,
+      "wind": 0
+    }
+  }
+]

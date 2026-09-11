@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Fly Pilot — Drosophila Airlines</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app">
+    <canvas id="scene" aria-label="Three-dimensional flight simulation replay"></canvas>
+    <header><div class="identity"><span class="logo">✈</span><div><b>DROSOPHILA</b><span>A I R L I N E S</span></div></div><div class="flight">FLIGHT 001 <i></i> EXPERIMENTAL AVIATION</div></header>
+    <div id="hook"><span class="eyebrow">THE PILOT IS A FRUIT FLY.</span><h1>Please remain calm.</h1><p>A fly-connectome controller. An actual flight-dynamics engine.</p></div>
+    <div id="status"><i></i><span id="phase">FINAL APPROACH</span><small id="mode">RECORDED SIMULATION</small></div>
+    <aside id="pilot"><div class="panel-title"><span class="record-dot"></span> COCKPIT CAM <span>01</span></div><canvas id="pilot-cam"></canvas><div class="pilot-caption"><strong>CAPT. D. MELANOGASTER</strong><span>Six legs. One yoke.</span></div></aside>
+    <aside id="brain"><div class="panel-title">NEURAL FLIGHT CONTROL <span id="neurons">LOADING</span></div><canvas id="brain-canvas" width="600" height="240"></canvas><div class="brain-legend"><span><i class="cyan"></i> POSITIVE RATE</span><span><i class="gold"></i> NEGATIVE RATE</span></div><div class="control-row"><span>ROLL</span><div class="control-track"><i id="roll-bar"></i></div><span>PITCH</span><div class="control-track"><i id="pitch-bar"></i></div></div></aside>
+    <div id="radio"><span>TOWER</span><p id="radio-text">Drosophila One, cleared to land.</p></div>
+    <div id="readouts"><div><span>AIRSPEED</span><strong id="speed">—</strong><small>KTS</small></div><div><span>ALTITUDE AGL</span><strong id="altitude">—</strong><small>FT</small></div><div><span>VERTICAL SPEED</span><strong id="vs">—</strong><small>FT / MIN</small></div><div><span>RUNWAY</span><strong>36</strong><small id="distance">— M</small></div></div>
+    <section id="result"><span class="eyebrow">DROSOPHILA AIRLINES</span><h1 id="result-title">We have arrived.</h1><p id="result-detail"></p><div class="result-footer">Thank you for trusting a fruit fly with this.</div></section>
+    <footer><span id="disclosure">FlyWire-derived rate network · trained readout · assisted flight · replay</span><span id="clock">00:00</span></footer>
+    <nav id="transport"><button id="play">Pause</button><button data-camera="cockpit">Cockpit</button><button data-camera="pilot">Pilot</button><button data-camera="chase">Chase</button><button data-camera="auto">Director</button><input id="seek" type="range" min="0" max="1000" value="0" aria-label="Replay position"><button id="restart">Restart</button><a href="../README.md">Methods & source</a></nav>
+    <div id="error" hidden></div>
+  </main>
+  <script src="vendor/three.global.js"></script>
+  <script src="replay.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
