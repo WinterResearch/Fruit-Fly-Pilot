@@ -18,3 +18,4 @@ web/neural-data.js
 outputs/*-frame-*.jpg
 outputs/*.log
 outputs/*.zip
+.venv/
