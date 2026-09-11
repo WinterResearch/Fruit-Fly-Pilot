@@ -1,6 +1,6 @@
-# Fly Pilot / Drosophila Airlines
+# Fly Pilot
 
-A fruit-fly connectome drives roll and pitch controls in a JSBSim aircraft,
+A fruit fly connectome drives roll and pitch controls in a JSBSim aircraft,
 presented with a procedural 3D fly pilot, cockpit camera, and landing replay.
 
 **Experimental, assisted control.** This is a fixed, signed rate network on
