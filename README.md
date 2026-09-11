@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/a10171c7-0bf0-4354-bd90-74d48265fa29
+
 # Fly Pilot
 
 A fruit fly connectome drives roll and pitch controls in a JSBSim aircraft,
